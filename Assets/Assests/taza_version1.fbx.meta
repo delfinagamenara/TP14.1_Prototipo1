@@ -6,10 +6,22 @@ ModelImporter:
     100000: //RootNode
     400000: //RootNode
     2100000: No Name
+    2100002: rosa_afuera
+    2100004: rosa_adentro
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cylinder
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rosa_adentro
+    second: {fileID: 2100000, guid: fd29a4852cc782a46b3457c3aea52aab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rosa_afuera
+    second: {fileID: 2100000, guid: c0b1cff96402d4441a136881b4f372f8, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
