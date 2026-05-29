@@ -4,25 +4,26 @@ using UnityEngine;
 
 public class Pickable_Taza : MonoBehaviour
 {
-      private static int contador = 0;
-    
-    // Start is called before the first frame update
+    private static int contador = 0;
+    private Score_Manager scoreManager;
+
     void Start()
     {
-        
+        scoreManager = FindObjectOfType<Score_Manager>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         
     }
-      private void OnTriggerEnter(Collider other)
+
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("InteractiveArea"))
         {
-       contador++;
-        Debug.Log("Tazas recolectadas: " + contador);
+            contador++;
+            scoreManager.AddScore();
+            Debug.Log("Tazas recolectadas: " + contador);
             Destroy(gameObject);
         }
     }
