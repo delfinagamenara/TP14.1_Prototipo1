@@ -5,11 +5,11 @@ using UnityEngine;
 public class Time_Manager : MonoBehaviour
 {
     public float timer = 60f;
-    private UIManager uiManager;
+    private UI_Manager uiManager;
 
     void Start()
     {
-        uiManager = FindObjectOfType<UIManager>();
+        uiManager = FindObjectOfType<UI_Manager>();
     }
 
     void Update()
