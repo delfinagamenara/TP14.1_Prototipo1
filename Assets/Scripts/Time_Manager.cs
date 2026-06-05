@@ -6,14 +6,17 @@ public class Time_Manager : MonoBehaviour
 {
     public float timer = 60f;
     private UI_Manager uiManager;
+    private bool juegoTerminado = false;
 
     void Start()
     {
         uiManager = FindObjectOfType<UI_Manager>();
+        Time.timeScale = 1;
     }
 
     void Update()
     {
+        if (!juegoTerminado){
         if (timer > 0)
         {
             timer -= Time.deltaTime;
@@ -23,7 +26,15 @@ public class Time_Manager : MonoBehaviour
         {
             timer = 0;
             uiManager.UpdateTimer(0);
+             juegoTerminado = true;
+             uiManager.MostrarPantallaGameOver();  
+            Time.timeScale = 0; 
             Debug.Log("¡Tiempo terminado!");
-        }
+        }}
     }
+     if (juegoTerminado && Input.GetKeyDown(KeyCode.R))
+        {
+            Time.timeScale = 1;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        } 
 }
