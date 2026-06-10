@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;  
 
 public class Time_Manager : MonoBehaviour
 {
@@ -31,10 +32,10 @@ public class Time_Manager : MonoBehaviour
             Time.timeScale = 0; 
             Debug.Log("¡Tiempo terminado!");
         }}
-    }
+    
      if (juegoTerminado && Input.GetKeyDown(KeyCode.R))
         {
             Time.timeScale = 1;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         } 
-}
+}}

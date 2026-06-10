@@ -5,6 +5,7 @@ using UnityEngine;
 public class Score_Manager : MonoBehaviour
 {
         private int score = 0;
+        public int scoreMaximo = 5;
     private UI_Manager uiManager;
 
     void Awake()
@@ -15,8 +16,14 @@ public class Score_Manager : MonoBehaviour
     {
         score++;
         uiManager.UpdateScore(score);
-        Debug.Log("Score: " + score);
-    }
+        Debug.Log("Tazas recolectadas: " + score);
+    
+            if (score >= scoreMaximo)
+        {
+            uiManager.MostrarPantallaWin();
+            Time.timeScale = 0;
+            Debug.Log("¡Ganaste!");
+        }}
     // Start is called before the first frame update
     void Start()
     {

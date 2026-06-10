@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Pickable_Taza : MonoBehaviour
 {
-    private static int contador = 0;
-    private Score_Manager scoreManager;
+private Score_Manager scoreManager;
 
     void Start()
     {
-        scoreManager = FindObjectOfType<Score_Manager>();
+    scoreManager = FindObjectOfType<Score_Manager>();
+
     }
 
     void Update()
@@ -21,9 +21,7 @@ public class Pickable_Taza : MonoBehaviour
     {
         if (other.CompareTag("InteractiveArea"))
         {
-            contador++;
             scoreManager.AddScore();
-            Debug.Log("Tazas recolectadas: " + contador);
             Destroy(gameObject);
         }
     }
