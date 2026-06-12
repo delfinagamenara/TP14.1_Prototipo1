@@ -21,8 +21,9 @@ private Score_Manager scoreManager;
     {
         if (other.CompareTag("InteractiveArea"))
         {
-            scoreManager.AddScore();
+   
             Destroy(gameObject);
+            scoreManager.AddScore();
         }
     }
 }

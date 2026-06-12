@@ -7,10 +7,12 @@ public class Score_Manager : MonoBehaviour
         private int score = 0;
         public int scoreMaximo = 5;
     private UI_Manager uiManager;
+    private Time_Manager timeManager;
 
     void Awake()
     {
         uiManager = FindObjectOfType<UI_Manager>();
+        timeManager = FindObjectOfType<Time_Manager>();
     }
         public void AddScore()
     {
@@ -21,6 +23,7 @@ public class Score_Manager : MonoBehaviour
             if (score >= scoreMaximo)
         {
             uiManager.MostrarPantallaWin();
+         timeManager.juegoTerminado = true; 
             Time.timeScale = 0;
             Debug.Log("¡Ganaste!");
         }}

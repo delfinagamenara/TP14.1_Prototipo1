@@ -8,8 +8,8 @@ public class UI_Manager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI timerText;
 
-    public GameObject panelWin;   
-    public GameObject panelGameOver;
+    public GameObject Panel_Ganaste;   
+    public GameObject Panel_Perdiste;
 
     public void UpdateScore(int score)
     {
@@ -24,12 +24,12 @@ public class UI_Manager : MonoBehaviour
 
     public void MostrarPantallaWin()
     {
-        panelWin.SetActive(true);
+        Panel_Ganaste.SetActive(true);
     }
 
     public void MostrarPantallaGameOver()
     {
-        panelGameOver.SetActive(true);
+        Panel_Perdiste.SetActive(true);
     }
     // Start is called before the first frame update
     void Start()

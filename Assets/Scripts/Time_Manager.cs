@@ -7,7 +7,7 @@ public class Time_Manager : MonoBehaviour
 {
     public float timer = 60f;
     private UI_Manager uiManager;
-    private bool juegoTerminado = false;
+    public bool juegoTerminado = false;
 
     void Start()
     {
@@ -17,8 +17,10 @@ public class Time_Manager : MonoBehaviour
 
     void Update()
     {
+
         if (!juegoTerminado){
         if (timer > 0)
+        
         {
             timer -= Time.deltaTime;
             uiManager.UpdateTimer(timer);
