@@ -40,27 +40,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Bidon
-    second: {fileID: 2100000, guid: af8a6de33efa84e9e85fa8f4c548e244, type: 2}
+    second: {fileID: 2100000, guid: dc1f845ad1d5f4b549bcc6f2b92b1069, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Caliente
-    second: {fileID: 2100000, guid: 30d0056a1e69942e5b5626138110a01a, type: 2}
+    second: {fileID: 2100000, guid: 69dab387edd46460baa1c98f54a0d4c6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Estructura
-    second: {fileID: 2100000, guid: a07d5b8ea2b3f4162abf29de5ed9495f, type: 2}
+    second: {fileID: 2100000, guid: b59079e8aca344981be06273e008df75, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Frio
-    second: {fileID: 2100000, guid: 5c64cdac9436a4bd8a5f946cd71f7f67, type: 2}
+    second: {fileID: 2100000, guid: ac4f676f730954cbb89fc8e1dcd89652, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: rosa claro
-    second: {fileID: 2100000, guid: 8fd0936c091c44fe781b01671e7ebe23, type: 2}
+    second: {fileID: 2100000, guid: 558f7a4299a594ec6b92c3f268927781, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
@@ -125,9 +125,9 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    optimizeMeshForGPU: 0
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0

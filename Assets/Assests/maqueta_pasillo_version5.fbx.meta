@@ -1,81 +1,58 @@
 fileFormatVersion: 2
-guid: c4e5de566e16f4302812134d3640d291
+guid: 1259ea48caea17b4db2f828d8df967e8
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Cube.014
-    100004: Cube.015
-    100006: Cube.016
-    100008: Cube.017
-    100010: Cube.018
-    100012: Cube.019
-    100014: Cube.020
-    100016: Cube.021
-    100018: Cube.022
-    100020: Cube.023
-    100022: Cube.024
-    100024: Cube.025
-    100026: Cube.026
-    100028: Cube.027
+    100002: Paredes
+    100004: Persona
+    100006: Piso
+    100008: Puerta
+    100010: Puerta.001
+    100012: Puerta.002
+    100014: Techo
+    100016: Ventana
     400000: //RootNode
-    400002: Cube.014
-    400004: Cube.015
-    400006: Cube.016
-    400008: Cube.017
-    400010: Cube.018
-    400012: Cube.019
-    400014: Cube.020
-    400016: Cube.021
-    400018: Cube.022
-    400020: Cube.023
-    400022: Cube.024
-    400024: Cube.025
-    400026: Cube.026
-    400028: Cube.027
-    2100000: Madera
-    2300000: Cube.014
-    2300002: Cube.015
-    2300004: Cube.016
-    2300006: Cube.017
-    2300008: Cube.018
-    2300010: Cube.019
-    2300012: Cube.020
-    2300014: Cube.021
-    2300016: Cube.022
-    2300018: Cube.023
-    2300020: Cube.024
-    2300022: Cube.025
-    2300024: Cube.026
-    2300026: Cube.027
-    3300000: Cube.014
-    3300002: Cube.015
-    3300004: Cube.016
-    3300006: Cube.017
-    3300008: Cube.018
-    3300010: Cube.019
-    3300012: Cube.020
-    3300014: Cube.021
-    3300016: Cube.022
-    3300018: Cube.023
-    3300020: Cube.024
-    3300022: Cube.025
-    3300024: Cube.026
-    3300026: Cube.027
-    4300000: Cube.014
-    4300002: Cube.015
-    4300004: Cube.016
-    4300006: Cube.017
-    4300008: Cube.018
-    4300010: Cube.019
-    4300012: Cube.020
-    4300014: Cube.021
-    4300016: Cube.022
-    4300018: Cube.023
-    4300020: Cube.024
-    4300022: Cube.025
-    4300024: Cube.026
-    4300026: Cube.027
+    400002: Paredes
+    400004: Persona
+    400006: Piso
+    400008: Puerta
+    400010: Puerta.001
+    400012: Puerta.002
+    400014: Techo
+    400016: Ventana
+    2100000: piso_textura
+    2100002: No Name
+    2100004: techo_textura
+    2100006: ladrillo_textura
+    2100008: Metal
+    2100010: Ventana
+    2100012: Puerta
+    2100014: Manija
+    2300000: Paredes
+    2300002: Persona
+    2300004: Piso
+    2300006: Puerta
+    2300008: Puerta.001
+    2300010: Puerta.002
+    2300012: Techo
+    2300014: Ventana
+    3300000: Paredes
+    3300002: Persona
+    3300004: Piso
+    3300006: Puerta
+    3300008: Puerta.001
+    3300010: Puerta.002
+    3300012: Techo
+    3300014: Ventana
+    4300000: Piso
+    4300002: Persona
+    4300004: Techo
+    4300006: Paredes
+    4300008: Ventana
+    4300010: Puerta
+    4300012: Puerta.001
+    4300014: Puerta.002
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -116,7 +93,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

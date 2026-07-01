@@ -58,12 +58,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Manija
-    second: {fileID: 2100000, guid: 7b4e857fb873f174f83cc402314bd977, type: 2}
+    second: {fileID: 2100000, guid: 198340e702d61da4ea0d39a73bb690ef, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Metal
-    second: {fileID: 2100000, guid: 93609582f849fc54ead661121cc4bd7b, type: 2}
+    second: {fileID: 2100000, guid: 198340e702d61da4ea0d39a73bb690ef, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -73,57 +73,57 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Puerta
-    second: {fileID: 2100000, guid: 7b4c0fe7b6d1f874aaa0709fb3012cc4, type: 2}
+    second: {fileID: 2100000, guid: 3f3faf3bb2a3989418743c904ec10987, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ventana
-    second: {fileID: 2100000, guid: e6f797a09c6cecf439345992956a22ec, type: 2}
+    second: {fileID: 2100000, guid: fbd2a3e0ed6cf0d49a229398d57829b7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ladrillo_textura
-    second: {fileID: 2100000, guid: 84c47f2180b152d49a7a94ca10bf4206, type: 2}
+    second: {fileID: 2100000, guid: c3dc70aeb6fc645db80a7a0b5051321e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: piso_textura
-    second: {fileID: 2100000, guid: 10525f4b44b5a1541ae7f119fee4c27e, type: 2}
+    second: {fileID: 2100000, guid: e9b5951f0b676114fbf1bdc21f873f68, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: techo_textura
-    second: {fileID: 2100000, guid: f3f8542c7521df44d81a32c10ba615ba, type: 2}
+    second: {fileID: 2100000, guid: 6724aee95294bda4b81bb4eb53e3b5e8, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: TexturesCom_OfficeCeiling_1K_albedo
-    second: {fileID: 2800000, guid: 052fa7d1842646e4d9e6eb33b6880474, type: 3}
+    second: {fileID: 2800000, guid: 564d88c5e3861bb46a8f6ba81ff55bd6, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: blue-glass-texture-background-free-photo
-    second: {fileID: 2800000, guid: 0f434963b2111b34c94d876550fb6ed1, type: 3}
+    second: {fileID: 2800000, guid: 5d410062dbb9ccd4cac292745f7610d7, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: corrugated_iron_disp_1k
-    second: {fileID: 2800000, guid: 60d837633813f7a42880f6b3a9ea2567, type: 3}
+    second: {fileID: 2800000, guid: 582c1c7589b03584fa9676e10cd8cde8, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: red_brick_03_diff_1k
-    second: {fileID: 2800000, guid: 0c0bccd14ff151a40aa674813898c649, type: 3}
+    second: {fileID: 2800000, guid: a79371d4bd2f04443ba51b91b9810c37, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: stone_embedded_tiles_diff_1k
-    second: {fileID: 2800000, guid: b210bbda76b293e4a9fed09aa486387f, type: 3}
+    second: {fileID: 2800000, guid: 1301c06153f14f645ac4fe35547290c2, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -158,7 +158,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
