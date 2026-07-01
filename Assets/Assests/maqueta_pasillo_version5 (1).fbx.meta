@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: 441e9654d236a3141a636f806b7e1945
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Paredes
+    100004: Persona
+    100006: Piso
+    100008: Puerta
+    100010: Puerta.001
+    100012: Puerta.002
+    100014: Techo
+    100016: Ventana
+    400000: //RootNode
+    400002: Paredes
+    400004: Persona
+    400006: Piso
+    400008: Puerta
+    400010: Puerta.001
+    400012: Puerta.002
+    400014: Techo
+    400016: Ventana
+    2100000: piso_textura
+    2100002: No Name
+    2100004: techo_textura
+    2100006: ladrillo_textura
+    2100008: Metal
+    2100010: Ventana
+    2100012: Puerta
+    2100014: Manija
+    2300000: Paredes
+    2300002: Persona
+    2300004: Piso
+    2300006: Puerta
+    2300008: Puerta.001
+    2300010: Puerta.002
+    2300012: Techo
+    2300014: Ventana
+    3300000: Paredes
+    3300002: Persona
+    3300004: Piso
+    3300006: Puerta
+    3300008: Puerta.001
+    3300010: Puerta.002
+    3300012: Techo
+    3300014: Ventana
+    4300000: Piso
+    4300002: Persona
+    4300004: Techo
+    4300006: Paredes
+    4300008: Ventana
+    4300010: Puerta
+    4300012: Puerta.001
+    4300014: Puerta.002
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manija
+    second: {fileID: 2100000, guid: 7b4e857fb873f174f83cc402314bd977, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 93609582f849fc54ead661121cc4bd7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 7ab985b0cbab91c4687fbbfa380ba748, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Puerta
+    second: {fileID: 2100000, guid: 7b4c0fe7b6d1f874aaa0709fb3012cc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ventana
+    second: {fileID: 2100000, guid: e6f797a09c6cecf439345992956a22ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ladrillo_textura
+    second: {fileID: 2100000, guid: 84c47f2180b152d49a7a94ca10bf4206, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: piso_textura
+    second: {fileID: 2100000, guid: 10525f4b44b5a1541ae7f119fee4c27e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: techo_textura
+    second: {fileID: 2100000, guid: f3f8542c7521df44d81a32c10ba615ba, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_OfficeCeiling_1K_albedo
+    second: {fileID: 2800000, guid: 052fa7d1842646e4d9e6eb33b6880474, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: blue-glass-texture-background-free-photo
+    second: {fileID: 2800000, guid: 0f434963b2111b34c94d876550fb6ed1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: corrugated_iron_disp_1k
+    second: {fileID: 2800000, guid: 60d837633813f7a42880f6b3a9ea2567, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: red_brick_03_diff_1k
+    second: {fileID: 2800000, guid: 0c0bccd14ff151a40aa674813898c649, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stone_embedded_tiles_diff_1k
+    second: {fileID: 2800000, guid: b210bbda76b293e4a9fed09aa486387f, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
